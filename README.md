@@ -1,1 +1,1 @@
-Readme for first C project!
+Readme for variables if else project!
