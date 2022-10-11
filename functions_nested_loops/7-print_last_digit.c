@@ -5,18 +5,14 @@
  */
 int print_last_digit(int n)
 {
-	char i;
-
-    if (n >= 0)
+	char i, j;
+    i = n % 10;
+    j = -1 * i;
+    if (n < 0)
     {
-    	i = ((n % 10) + '0');
-        _putchar(i);
-	    return (n % 10);
+        _putchar(j + '0');
+	    return (j);
     }
-    else
-    {
-        i = ((-1 * n % 10) + '0');
-        _putchar(i);
-	    return (-1 * n % 10) ;
-    }
+    _putchar(i + '0');
+    return (i);
 }
