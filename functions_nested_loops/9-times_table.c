@@ -11,7 +11,7 @@ void times_table(void)
 	{
 		for (j = 0; j <= 9; j++)
 		{
-            k = i * j
+            k = i * j;
 			_putchar(k / 10 +'0');
 			_putchar(k % 10 +'0');
             _putchar(',');
