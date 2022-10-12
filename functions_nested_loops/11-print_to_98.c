@@ -6,7 +6,7 @@
  */
 void print_to_98(int n)
 {
-    int i;
+    int i, j;
 
     if (n <= 98)
     {
@@ -22,12 +22,12 @@ void print_to_98(int n)
     else
     {
         printf("hola mundo");
-        for (i = 98; i >= n; i--)
+        for (j = 98; j >= n; j--)
         {
-            printf("%i", i);
-            if (i != n)
+            printf("%i", j);
+            if (j != n)
                 printf(", ");
-            else if (i == n)
+            else if (j == n)
                 printf("\n");
         }
     }   
