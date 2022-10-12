@@ -5,6 +5,14 @@
  */
 int main(void)
 {
-    printf ("hola");
+    int i, j;
+    for (i = 1; i < 10; i++)
+    {
+        if ((i % 5) == 0)
+            j = i + j;
+        if ((i % 3) == 0)
+            j = i + j;
+    }
+    printf("%i", j);
     return (0);
 }
