@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-    long int i, x, y, z;
+    double i, x, y, z;
     x = 1;
     y = 0;
     for (i = 0; i <= 97; i++)
@@ -13,7 +13,7 @@ int main(void)
         z = x + y;
         y = x;
         x = z;
-        printf("%ld", z);
+        printf("%.0f", z);
         if (i < 97)
             printf(", ");
     }
