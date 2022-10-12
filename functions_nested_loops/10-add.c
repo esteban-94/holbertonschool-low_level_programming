@@ -1,9 +1,11 @@
 #include "main.h"
 /**
  * add - adds two numbers.
- * Return: Return 1 if is alphabetic character or 0 otherwise.
+ * @i: to prove
+ * @j: to prove
+ * Return: Return the sum of two numbers.
  */
 int add(int i, int j)
 {
-    return (i + j);
+	return (i + j);
 }
