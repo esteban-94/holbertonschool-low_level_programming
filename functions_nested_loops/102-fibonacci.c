@@ -6,6 +6,7 @@
 int main(void)
 {
 	long int i, x, y, z;
+	
 	x = 1;
 	y = 0;
 	for (i = 0; i <= 49; i++)
