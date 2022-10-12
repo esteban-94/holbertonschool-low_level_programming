@@ -6,7 +6,7 @@
 int main(void)
 {
     int i, j;
-    for (i = 1; i < 1024; i++)
+    for (i = 1; i < 15; i++)
     {
         if ((i % 5) == 0)
             j = i + j;
@@ -14,5 +14,6 @@ int main(void)
             j = i + j;
     }
     printf("%i", j);
+    printf("\n");
     return (0);
 }
