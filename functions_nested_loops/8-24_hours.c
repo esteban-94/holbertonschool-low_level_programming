@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * jack_bauer - prints every minute of the day.
- * Return: Return 1 if is alphabetic character or 0 otherwise.
+ * Return: void function not have return.
  */
 void jack_bauer(void)
 {
@@ -16,7 +16,7 @@ void jack_bauer(void)
 			_putchar(':');
 			_putchar(j / 10 + '0');
 			_putchar(j % 10 + '0');
-            _putchar('\n');
-        }
-    }
+			_putchar('\n');
+		}
+	}
 }
