@@ -21,12 +21,12 @@ void print_to_98(int n)
     }
     else
     {
-        for (j = 98; j >= n; j--)
+        for (i = n; i >= 98; i--)
         {
-            printf("%i", j);
-            if (j != n)
+            printf("%i", i);
+            if (i != 98)
                 printf(", ");
-            else if (j == n)
+            else if (i == 98)
                 printf("\n");
         }
     }   
