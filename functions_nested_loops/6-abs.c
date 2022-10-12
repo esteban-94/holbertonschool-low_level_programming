@@ -1,7 +1,8 @@
 #include "main.h"
 /**
  * _abs - prints absolute value of an integer.
- * Return: Return 1 if is alphabetic character or 0 otherwise.
+ *@n: to prove
+ * Return: Return the absolute value of an integer.
  */
 int _abs(int n)
 {
