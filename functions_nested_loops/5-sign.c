@@ -1,6 +1,6 @@
 #include "main.h"
 /**
- * _print_sign - prints the sign of a integrer.
+ * print_sign - prints the sign of a integrer.
  *@n: to prove
  * Return: Return 1 if is positive number, 0 if is 0, -1 in otherwise.
  */
