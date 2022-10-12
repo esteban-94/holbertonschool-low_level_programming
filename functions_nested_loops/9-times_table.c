@@ -1,7 +1,7 @@
 #include "main.h"
 /**
  * times_table - prints 9 times table.
- * Return: Return 1 if is alphabetic character or 0 otherwise.
+ * Return: void function not have return.
  */
 void times_table(void)
 {
@@ -11,18 +11,18 @@ void times_table(void)
 	{
 		for (j = 0; j <= 9; j++)
 		{
-            k = i * j;
-            if ((k / 10) == 0 && j != 0)
-                _putchar(' ');
-            else if (j != 0)
-			    _putchar(k / 10 +'0');
+			k = i * j;
+			if ((k / 10) == 0 && j != 0)
+				_putchar(' ');
+			else if (j != 0)
+				_putchar(k / 10 +'0');
 			_putchar(k % 10 +'0');
-            if (j < 9)
-            {
-                _putchar(',');
-                _putchar(' ');
-            }
-        }
-        _putchar('\n');
-    }
+			if (j < 9)
+			{
+				_putchar(',');
+				_putchar(' ');
+			}
+		}
+		_putchar('\n');
+	}
 }
