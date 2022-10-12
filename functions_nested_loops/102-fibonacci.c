@@ -15,7 +15,7 @@ int main(void)
         x = z;
         printf("%i", z);
         if (i < 49)
-            printf(", ";
+            printf(", ");
     }
     printf("\n");
     return (0);
