@@ -12,7 +12,9 @@ void print_times_table(int n)
 		for (j = 0; j <= n; j++)
 		{
             k = i * j;
-            if ((k / 10) == 0 && j != 0)
+            if ((k / 100) == 0 && j != 0)
+                _putchar(' ');
+            else if ((k / 10) == 0 && j != 0)
                 _putchar(' ');
             else if (j != 0)
             {
