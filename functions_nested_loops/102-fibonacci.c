@@ -6,11 +6,12 @@
 int main(void)
 {
     int i, j;
-    j = 0;
-    for (i = 1; i <= 50; i + j)
+    j = 1;
+    for (i = 0; i <= 49; i + j)
     {
         j = j + i;
         printf("%i, ", j);
     }
+    printf("\n");
     return (0);
 }
