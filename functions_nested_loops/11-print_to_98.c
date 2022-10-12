@@ -12,10 +12,8 @@ void print_to_98(int n)
     {
         for (i = n; i <= 98; i++)
         {
-            if (i = 98)
-            {
+            if (i == 98)
                 printf("%i", i);
-            }
             printf("%i, ", i);
         }
     }
@@ -23,10 +21,8 @@ void print_to_98(int n)
     {
         for (i = 98; i >= n; i--)
         {
-            if (i = n)
-            {
+            if (i == n)
                 printf("%i", i);
-            }
             printf("%i, ", i);
         }
     }   
