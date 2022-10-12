@@ -23,9 +23,11 @@ void print_to_98(int n)
     {
         for (i = 98; i >= n; i--)
         {
-            if (i == n)
-                printf("%i", i);
-            printf("%i, ", i);
+            printf("%i", i);
+            if (i != n)
+                printf(", ");
+            else if (i == n)
+                printf("\n");
         }
     }   
 }
