@@ -5,18 +5,21 @@
  */
 int main(void)
 {
-    long int i, x, y, z;
+    long int i, x, y, z, a, b;
     x = 1;
     y = 0;
-    for (i = 0; i <= 49; i++)
+    z = 0;
+    b = 0;
+    a = 4000000;
+    while (z < a)
     {
         z = x + y;
         y = x;
         x = z;
-        printf("%ld", z);
-        if (i < 49)
-            printf(", ");
+        if ((z % 2) == 0)
+            b = b + z;
     }
+    printf("%ld", b);
     printf("\n");
     return (0);
 }
