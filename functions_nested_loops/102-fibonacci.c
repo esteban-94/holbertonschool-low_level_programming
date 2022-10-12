@@ -5,11 +5,15 @@
  */
 int main(void)
 {
-    int i, j;
-    j = 1;
-    for (i = 0; i <= 49; i + j)
+    int i, j, x, y, z;
+    x = 1;
+    y = 0;
+    for (i = 0; i <= 49; i++)
     {
-        j = j + i;
+        z = x + y;
+        x = z;
+        y = x;
+        j = z;
         printf("%i, ", j);
     }
     printf("\n");
