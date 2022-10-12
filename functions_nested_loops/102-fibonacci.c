@@ -5,7 +5,7 @@
  */
 int main(void)
 {
-    int i, x, y, z;
+    long int i, x, y, z;
     x = 1;
     y = 0;
     for (i = 0; i <= 49; i++)
@@ -13,7 +13,9 @@ int main(void)
         z = x + y;
         y = x;
         x = z;
-        printf("%i, ", z);
+        printf("%i", z);
+        if (i < 49)
+            printf(", ";
     }
     printf("\n");
     return (0);
