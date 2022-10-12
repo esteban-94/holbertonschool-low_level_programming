@@ -22,7 +22,7 @@ void print_to_98(int n)
     else
     {
         printf("hola mundo");
-        for (j = 98; j >= n; j--)
+        for (j = 3; j >= 1; j--)
         {
             printf("%i", j);
             if (j != n)
