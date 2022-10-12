@@ -13,7 +13,7 @@ int main(void)
         z = x + y;
         y = x;
         x = z;
-        printf("%i", z);
+        printf("%ld", z);
         if (i < 49)
             printf(", ");
     }
