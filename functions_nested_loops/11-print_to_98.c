@@ -21,6 +21,7 @@ void print_to_98(int n)
     }
     else
     {
+        printf("hola mundo")
         for (i = 98; i >= n; i--)
         {
             printf("%i", i);
