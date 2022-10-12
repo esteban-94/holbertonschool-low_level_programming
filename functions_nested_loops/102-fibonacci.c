@@ -6,13 +6,10 @@
 int main(void)
 {
     int i, j;
-    for (i = 1; i <= 2; i++)
+    for (i = 1; i <= 3; i + j)
     {
-        for (j = 0; j <= i; j++)
-        {
-            j = j + i;
-            printf("%i, ", j);
-        }
+        j = j + i;
+        printf("%i, ", j);
     }
     return (0);
 }
