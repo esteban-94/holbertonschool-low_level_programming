@@ -5,5 +5,5 @@
  */
 int main(void)
 {
-printf ("hola");
+    printf ("hola");
 }
