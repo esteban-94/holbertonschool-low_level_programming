@@ -6,7 +6,8 @@
 int main(void)
 {
     int i, j;
-    for (i = 1; i <= 3; i + j)
+    j = 0;
+    for (i = 1; i <= 50; i + j)
     {
         j = j + i;
         printf("%i, ", j);
