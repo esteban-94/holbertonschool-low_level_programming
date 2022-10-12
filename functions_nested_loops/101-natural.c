@@ -6,7 +6,7 @@
 int main(void)
 {
     int i, j;
-    for (i = 1; i < 10; i++)
+    for (i = 1; i < 1024; i++)
     {
         if ((i % 5) == 0)
             j = i + j;
