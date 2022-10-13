@@ -15,7 +15,7 @@ void more_numbers(void)
 			{
 				if (j > 48 && (j + k) <= 101)
 					_putchar(j);
-				if (j == 48 || (j + k) <= 101)
+				else if (j == 48 || (j + k) <= 101)
 					_putchar(k);
 			}
 		}
