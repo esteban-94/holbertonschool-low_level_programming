@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * print_line - Print a line.
+ *@n: to prove
  * Return: void function not have return.
  */
 void print_line(int n)
