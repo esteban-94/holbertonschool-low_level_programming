@@ -4,7 +4,7 @@
  *@c: to prove
  * Return: Return 1 if a letter is lowercase or 0 otherwise.
  */
-int _islower(int c)
+int _isupper(int c)
 {
 	if (c > 96 && c <= 122)
 		return (1);
