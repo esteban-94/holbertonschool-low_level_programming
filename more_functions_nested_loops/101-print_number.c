@@ -5,6 +5,6 @@
  */
 void print_number(int n)
 {
-	_putchar(n % 10);
+	_putchar((n % 10)+48);
 	return (0);
 }
