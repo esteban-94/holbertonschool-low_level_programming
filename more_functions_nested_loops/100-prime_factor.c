@@ -13,11 +13,12 @@ int main(void)
 	{
 		if ((i % j) == 0)
 		{
-			printf("%ld,", j);
 			i = (i / j);
 		}
 		else
 			j++;
+		if (i == j)
+			printf("%ld", j);
 	}
 	printf("\n");
 	return (0);
