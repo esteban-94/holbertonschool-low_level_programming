@@ -12,9 +12,7 @@ int main(void)
 	while (j <= i)
 	{
 		if ((i % j) == 0)
-		{
 			i = (i / j);
-		}
 		else
 			j++;
 		if (i == j)
