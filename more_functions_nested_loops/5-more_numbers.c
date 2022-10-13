@@ -13,7 +13,7 @@ void more_numbers(void)
 		{
 			for (k = 48 ; k <= 57; k++)
 			{
-				if (j > 48)
+				if (j > 48 && k <= 52)
 					_putchar(j);
 				if (j == 48 || k <= 52)
 					_putchar(k);
