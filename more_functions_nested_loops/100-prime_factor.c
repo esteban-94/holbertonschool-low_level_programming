@@ -13,8 +13,8 @@ int main(void)
     {
         if ((i % j) == 0)
         {
-            printf("%d,", j);
-            i = (i / j)
+            printf("%ld,", j);
+            i = (i / j);
         }
         else
             j++;
