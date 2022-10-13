@@ -7,10 +7,10 @@ void more_numbers(void)
 {
 	int i, j;
 
-	j = i % 10;
 	for (i = '0' ; i <= '9'; i++)
 	{
 		_putchar(i);
+        j = i % 10;
 	}
 	_putchar('\n');
 }
