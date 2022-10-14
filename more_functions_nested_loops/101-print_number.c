@@ -70,4 +70,81 @@ void print_number(int n)
         p = n % 10;
         _putchar(p + 48);
     }
+    else if (n >=1000000 && n <= 9999999)
+    {
+        r = n / 1000000;
+        _putchar(r + 48);
+        t = (n / 100000) % 10;
+        _putchar(t + 48);
+        y = (n / 10000) % 10;
+        _putchar(y + 48);
+        u = (n / 1000) % 10;
+        _putchar(u + 48);
+        i = (n / 100) % 10;
+        _putchar(i + 48);
+        o = (n / 10) % 10;
+        _putchar(o + 48);
+        p = n % 10;
+        _putchar(p + 48);
+    }
+    else if (n >=100000 && n <= 999999)
+    {
+        t = n / 100000;
+        _putchar(t + 48);
+        y = (n / 10000) % 10;
+        _putchar(y + 48);
+        u = (n / 1000) % 10;
+        _putchar(u + 48);
+        i = (n / 100) % 10;
+        _putchar(i + 48);
+        o = (n / 10) % 10;
+        _putchar(o + 48);
+        p = n % 10;
+        _putchar(p + 48);
+    }
+    else if (n >=10000 && n <= 99999)
+    {
+        y = n / 10000;
+        _putchar(y + 48);
+        u = (n / 1000) % 10;
+        _putchar(u + 48);
+        i = (n / 100) % 10;
+        _putchar(i + 48);
+        o = (n / 10) % 10;
+        _putchar(o + 48);
+        p = n % 10;
+        _putchar(p + 48);
+    }
+    else if (n >=1000 && n <= 9999)
+    {
+        u = n / 1000;
+        _putchar(u + 48);
+        i = (n / 100) % 10;
+        _putchar(i + 48);
+        o = (n / 10) % 10;
+        _putchar(o + 48);
+        p = n % 10;
+        _putchar(p + 48);
+    }
+    else if (n >=100 && n <= 999)
+    {
+        i = n / 100;
+        _putchar(i + 48);
+        o = (n / 10) % 10;
+        _putchar(o + 48);
+        p = n % 10;
+        _putchar(p + 48);
+    }
+    else if (n >=10 && n <= 99)
+    {
+        o = n / 10;
+        _putchar(o + 48);
+        p = n % 10;
+        _putchar(p + 48);
+    }
+    else if (n >=0 && n <= 9)
+    {
+        p = n % 10;
+        _putchar(p + 48);
+    }
 }
