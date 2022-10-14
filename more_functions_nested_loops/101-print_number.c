@@ -6,7 +6,7 @@
  */
 void print_number(int n)
 {
-    int q, w, e, r, t, y, u, i, o, p;
+    double q, w, e, r, t, y, u, i, o, p;
 
     if (n >=1000000000 && n <= 2147483647)
     {
@@ -148,7 +148,7 @@ void print_number(int n)
         p = n % 10;
         _putchar(p + 48);
     }
-    else if (n >=-2147483647 && n <= -1000000000)
+    else if (n >=-2147483648 && n <= -1000000000)
     {
         n = n * -1;
         q = n / 1000000000;
