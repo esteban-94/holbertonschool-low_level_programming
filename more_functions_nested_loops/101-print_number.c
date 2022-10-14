@@ -27,7 +27,7 @@ void print_number(int n)
         _putchar(i + 48);
         o = (n / 10) % 10;
         _putchar(o + 48);
-        p = n  % 10;
+        p = n % 10;
         _putchar(p + 48);
     }
 }
