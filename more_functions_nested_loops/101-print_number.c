@@ -32,7 +32,7 @@ void print_number(int n)
     }
     else if (n >=100000000 && n <= 999999999)
     {
-        w = n / 100000000
+        w = n / 100000000;
         _putchar(w + 48);
         e = (n / 10000000) % 10;
         _putchar(e + 48);
@@ -53,7 +53,7 @@ void print_number(int n)
     }
     else if (n >=10000000 && n <= 99999999)
     {
-        e = n / 10000000
+        e = n / 10000000;
         _putchar(e + 48);
         r = (n / 1000000) % 10;
         _putchar(r + 48);
