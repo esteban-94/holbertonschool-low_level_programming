@@ -7,7 +7,7 @@ void print_number(int n)
 {
     int q, w, e, r, t, y, u, i, o, p;
 
-    if (n >=1000000000 && n <= 9999999999)
+    if (n >=1000000000 && n <= 2147483647)
     {
         q = n / 1000000000;
         _putchar(q + 48);
