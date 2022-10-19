@@ -16,7 +16,7 @@ char *_strcpy(char *dest, char *src)
 		if (i == j)
 			*(dest + i) = '\0';
 	}
-	return dest;
+	return (dest);
 }
 int _strlen(char *s)
 {
