@@ -3,7 +3,8 @@
 * _strcpy - function task 9
 * _strlen - function
 *@dest: to probe
-*@src: to probe
+*@src: to prob
+* Return: dest
 */
 char *_strcpy(char *dest, char *src)
 {
