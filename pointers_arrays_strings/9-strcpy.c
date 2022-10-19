@@ -18,3 +18,17 @@ char *_strcpy(char *dest, char *src)
 	}
 	return dest;
 }
+int _strlen(char *s)
+{
+	int i;
+	int j;
+
+	i = 0;
+	j = 0;
+	while (*(s + i) != '\0')
+	{
+		j = j + 1;
+		i++;
+	}
+	return (j);
+}
