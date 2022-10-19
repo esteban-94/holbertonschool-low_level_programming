@@ -1,6 +1,5 @@
 #include "main.h"
-
-/*
+/**
 * _strcpy - function task 9
 * _strlen - function
 *@dest: to probe
