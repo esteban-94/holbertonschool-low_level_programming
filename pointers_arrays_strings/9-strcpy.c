@@ -1,6 +1,5 @@
 #include "main.h"
 /**
-* _strcpy - function task 9
 * _strlen - function
 *@dest: to probe
 *@src: to prob
@@ -19,6 +18,11 @@ char *_strcpy(char *dest, char *src)
 	}
 	return (dest);
 }
+/**
+* _strlen - function
+*@s: to probe
+* Return: j
+*/
 int _strlen(char *s)
 {
 	int i;
