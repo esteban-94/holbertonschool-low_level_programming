@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* _strlen - function
+* _strcpy - function
 *@dest: to probe
 *@src: to prob
 * Return: dest
