@@ -13,7 +13,7 @@ char *_strcat(char *dest, char *src)
 	k = _strlen(src);
 	for (i = j ; i < (j + k); i++)
 		*(dest + i) = *(src + (i - j));
-	return dest;
+	return (dest);
 }
 /**
 * _strlen - function
