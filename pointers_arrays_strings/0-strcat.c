@@ -15,3 +15,22 @@ char *_strcat(char *dest, char *src)
 		*(dest + i) = *(src + (i - j));
 	return dest;
 }
+/**
+* _strlen - function
+*@s: to probe
+* Return: j
+*/
+int _strlen(char *s)
+{
+	int i;
+	int j;
+
+	i = 0;
+	j = 0;
+	while (*(s + i) != '\0')
+	{
+		j = j + 1;
+		i++;
+	}
+	return (j);
+}
