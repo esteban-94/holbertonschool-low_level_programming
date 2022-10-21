@@ -16,7 +16,7 @@ int _atoi(char *s)
 		if (s[i] == 45)
 			sig = sig + 1;
 		else if (s[i] >= 48 && s[i] <= 57)
-			j = (j * 10) + (s[i] + '0');
+			j = (j * 10) + (s[i] - '0');
 		else if (j > 0)
 			break;
 	}
