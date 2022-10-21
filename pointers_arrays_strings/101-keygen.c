@@ -6,15 +6,25 @@
  */
 int main(void)
 {
-	int i;
-	char characters[] = "abcdefghijklmnopqrstuvwxyzABCDEFGHIJKLMNOPQRSTUVWXYZ0123456789";
-	
-	srand((unsigned int)(time(NULL)));
+	int con[50];
+	int i, sum, n;
 
-	i = 0;
-	for(i = 0; i < 10; i++)
+	sum = 0;
+
+	srand(time(NULL));
+
+	for (i = 0; i < 50; i++)
 	{
-		printf("%c", characters[rand() % (sizeof characters - 1)]);
+		con[i] = rand() % 78;
+		sum += (con[i] + '0');
+		putchar(con[i] + '0');
+		if ((2772 - sum) - '0' < 78)
+		{
+			n = 2772 - sum - '0';
+			sum += n;
+			putchar(n + '0');
+			break;
+		}
 	}
 	return (0);
 }
