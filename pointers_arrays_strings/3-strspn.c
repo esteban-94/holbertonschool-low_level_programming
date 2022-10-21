@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* *_strchr - function task 3
+* _strspn - function task 3
 *@s: to probe
 *@accept: to probe
 * Return: i
