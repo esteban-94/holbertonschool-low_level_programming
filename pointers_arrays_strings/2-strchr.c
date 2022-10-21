@@ -1,6 +1,6 @@
 #include "main.h"
 /**
-* *_strncpy - function task 2
+* *_strchr - function task 2
 *@s: to probe
 *@c: to probe
 * Return: 0
