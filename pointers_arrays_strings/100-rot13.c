@@ -21,8 +21,10 @@ char *rot13(char *a)
 		for (k = 0; k <= 51; k++)
 		{
 			if (a[i] == b[k])
+			{
 				a[i] = c[k];
 				break;
+			}
 		}
 	}
 	return (a);
