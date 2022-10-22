@@ -10,11 +10,8 @@
  **/
 char *infinite_add(char *n1, char *n2, char *r, int size_r)
 {
-	int i, j, k, x, a, b, add;
+	int i = 0, j = 0, k, x, a, b, add = 0;
 
-	i = 0;
-	j = 0;
-	add = 0;
 	while (*(n1 + i) != '\0')
 		i++;
 	while (*(n2 + j) != '\0')
