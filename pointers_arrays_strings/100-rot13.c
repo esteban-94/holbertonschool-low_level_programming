@@ -4,7 +4,7 @@
 *@a: to probe
 * Return: a
 */
-char *rot13(char *a);
+char *rot13(char *a)
 {
 	int i, j, k;
 	char b[] = {65, 66, 67, 68, 69, 70, 71, 72, 73, 74, 75, 76, 77,
