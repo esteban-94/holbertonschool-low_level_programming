@@ -1,7 +1,8 @@
 #include "main.h"
 /**
- * _puts_recursion - function task 2
+ * _strlen_recursion - function task 2
  *@s: to probe
+ * Return: lenght
  */
 int _strlen_recursion(char *s)
 {
