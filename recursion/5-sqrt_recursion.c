@@ -9,7 +9,7 @@ int _sqrt_recursion(int n)
 	int i;
 
 	i = 1;
-	return fun2(n, i));
+	return fun2((n, i));
 }
 /**
  *fun2 -auxiliar function
@@ -22,7 +22,7 @@ int fun2(int n, int i)
 	if (n / i == i)
 		return (i);
 	else if (i < n)
-		return fun2(n, i + 1));
+		return (fun2(n, i + 1));
 	else
 		return (-1);
 }
