@@ -1,6 +1,7 @@
 #include "main.h"
 /**
  * wildcmp - function task 101
+ * @s1: to probe
  * @s2: to probe
  * Return: 1
  */
