@@ -3,7 +3,7 @@
  * main - function task 0
  * @argc: to probe
  * @argv: to probe
- * Return: 0 
+ * Return: 0
 */
 int main(int argc, char *argv[])
 {
