@@ -1,9 +1,9 @@
 #include <stdio.h>
 #include <stdlib.h>
 /**
- * main - 
- * @argc: 
- * @argv: 
+ * main - function task  3
+ * @argc: to probe
+ * @argv: to probe
  * Return: 0
 */
 int main(int argc, char *argv[])
