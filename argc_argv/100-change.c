@@ -8,7 +8,7 @@
  */
 int main(int argc, char *argv[])
 {
-	int mon[5] = {1, 2, 5, 10, 25};
+	int mon[5] = {25, 10, 5, 2, 1};
 	int i, cent, coin;
 
 	coin = 0;
