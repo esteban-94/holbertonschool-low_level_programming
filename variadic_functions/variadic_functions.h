@@ -19,7 +19,8 @@ typedef struct print
 {
 	char *sym;
 	void (*print)(va_list arg);
-}print_t;
+}
+print_t;
 
 void print_all(const char * const format, ...);
 
