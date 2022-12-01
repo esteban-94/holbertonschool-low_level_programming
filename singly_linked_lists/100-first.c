@@ -1,13 +1,13 @@
 #include <stdio.h>
 
 /**
- * main - check code
- * Return: 0
-*/
+ * first - Print something before main
+ */
 
-int main1(void)
+void __attribute__ ((constructor)) first()
 {
-    printf("You're beat! and yet, you must allow");
-    printf(",\nI bore my house upon my back!\n");
-    return (0);
+	char *s;
+
+	s = "You're beat! and yet, you must allow,\nI bore my house upon my back!\n";
+	printf("%s", s);
 }
